@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 ==============================================================================
 Module Name:   test_interactive_session.py
@@ -15,7 +16,6 @@ Notes:         Requires Python 3.8+
 sessions exercising the whole 7-option menu.
 """
 
-from __future__ import annotations
 
 from unittest import mock
 

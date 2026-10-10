@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 ==============================================================================
 Module Name:   test_cipher_core.py
@@ -17,7 +18,6 @@ decrypt(), brute_force(), random_offset().
 None of these do any I/O, so they're tested directly with no mocking.
 """
 
-from __future__ import annotations
 
 import main
 

@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 ==============================================================================
 Module Name:   test_menu_options.py
@@ -15,7 +16,6 @@ Notes:         Requires Python 3.8+
 each option_*() function.
 """
 
-from __future__ import annotations
 
 from unittest import mock
 
