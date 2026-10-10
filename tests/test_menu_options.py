@@ -1,3 +1,16 @@
+"""
+==============================================================================
+Module Name:   test_menu_options.py
+Description:   Implementation and logic for test_menu_options.
+Author:        Mai Tan Duc <ducmai.network@gmail.com>
+Created:       2026-10-10
+Version:       1.0.0
+License:       MIT
+==============================================================================
+Usage:         python3 test_menu_options.py [options]
+Notes:         Requires Python 3.8+
+==============================================================================
+"""
 """Tests for the interactive menu functions: validate_option() and
 each option_*() function.
 """

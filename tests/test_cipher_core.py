@@ -1,3 +1,16 @@
+"""
+==============================================================================
+Module Name:   test_cipher_core.py
+Description:   Implementation and logic for test_cipher_core.
+Author:        Mai Tan Duc <ducmai.network@gmail.com>
+Created:       2026-10-10
+Version:       1.0.0
+License:       MIT
+==============================================================================
+Usage:         python3 test_cipher_core.py [options]
+Notes:         Requires Python 3.8+
+==============================================================================
+"""
 """Tests for the pure cipher logic: is_valid_message(), encrypt(),
 decrypt(), brute_force(), random_offset().
 

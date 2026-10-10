@@ -1,3 +1,16 @@
+"""
+==============================================================================
+Module Name:   test_interactive_session.py
+Description:   Implementation and logic for test_interactive_session.
+Author:        Mai Tan Duc <ducmai.network@gmail.com>
+Created:       2026-10-10
+Version:       1.0.0
+License:       MIT
+==============================================================================
+Usage:         python3 test_interactive_session.py [options]
+Notes:         Requires Python 3.8+
+==============================================================================
+"""
 """Integration tests for main.run_interactive(): full menu-driven
 sessions exercising the whole 7-option menu.
 """
