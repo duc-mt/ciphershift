@@ -17,20 +17,19 @@
 # To parse command-line arguments for the non-interactive CLI mode.
 import argparse
 
-# To print the encryption key to stderr, separately from stdout, so
-# piping stdout to a file or another program never mixes the key in
-# with the ciphertext.
-import sys
-
 # To randomise the offset value with a CSPRNG, so it isn't predictable
 # from a PRNG's internal state - see the note on random_offset() below
 # for why this matters less than it sounds, but it's a correct,
 # zero-cost choice for anything calling itself a cipher.
 import secrets
 
+# To print the encryption key to stderr, separately from stdout, so
+# piping stdout to a file or another program never mixes the key in
+# with the ciphertext.
+import sys
+
 # To implement Design by Contract.
 import icontract
-
 
 # ------------------------------- Named Constant -------------------------------
 # The printable ASCII range this cipher is defined over: Space to ~.
