@@ -121,7 +121,7 @@ class TestOptionEncrypt:
             mock.patch("builtins.input", return_value="999"),
             mock.patch("main.random_offset", return_value=50),
         ):
-            ciphertext, offset = main.option_encrypt("hi")
+            _ciphertext, offset = main.option_encrypt("hi")
         assert offset == 50
         assert "out of range" in capsys.readouterr().out
 
@@ -130,13 +130,13 @@ class TestOptionEncrypt:
             mock.patch("builtins.input", return_value="abc"),
             mock.patch("main.random_offset", return_value=50),
         ):
-            ciphertext, offset = main.option_encrypt("hi")
+            _ciphertext, offset = main.option_encrypt("hi")
         assert offset == 50
         assert "Invalid offset" in capsys.readouterr().out
 
     def test_ciphertext_does_not_contain_the_key_appended(self):
         with mock.patch("builtins.input", return_value="50"):
-            ciphertext, offset = main.option_encrypt("hi")
+            ciphertext, _offset = main.option_encrypt("hi")
         assert len(ciphertext) == len("hi")
 
 
