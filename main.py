@@ -1,20 +1,19 @@
+"""
+==============================================================================
+Module Name:   main.py
+Description:   Source module main.py.
+Author:        Mai Tan Duc <ducmai.network@gmail.com>
+Created:       2026-10-10
+Version:       1.0.0
+License:       MIT
+==============================================================================
+Usage:         python3 main.py [options]
+Notes:         Requires Python 3.8+
+==============================================================================
+"""
+
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-
-# =============================================================================
-#
-#        FILE: main.py
-#      AUTHOR: Mai Tan Duc
-#       EMAIL: ducmai.network@gmail.com
-#        DATE: 2021-10-21
-# DESCRIPTION: Use Caesar Cipher technique to encrypt or decrypt an
-#              inputted message.
-#
-# =============================================================================
-
-
-# ------------------------------- Module Imports ------------------------------
-# To parse command-line arguments for the non-interactive CLI mode.
 import argparse
 
 # To randomise the offset value with a CSPRNG, so it isn't predictable

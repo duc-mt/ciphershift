@@ -1,8 +1,7 @@
-
 """
 ==============================================================================
 Module Name:   test_interactive_session.py
-Description:   Integration tests for main.run_interactive(): full menu-driven sessions exercising the whole 7-option menu.
+Description:   Source module test_interactive_session.py.
 Author:        Mai Tan Duc <ducmai.network@gmail.com>
 Created:       2026-10-10
 Version:       1.0.0

@@ -1,8 +1,7 @@
-
 """
 ==============================================================================
 Module Name:   test_menu_options.py
-Description:   Tests for the interactive menu functions: validate_option() and each option_*() function.
+Description:   Source module test_menu_options.py.
 Author:        Mai Tan Duc <ducmai.network@gmail.com>
 Created:       2026-10-10
 Version:       1.0.0

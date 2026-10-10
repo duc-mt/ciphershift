@@ -1,8 +1,7 @@
-
 """
 ==============================================================================
 Module Name:   test_cipher_core.py
-Description:   Tests for the pure cipher logic: is_valid_message(), encrypt(), decrypt(), brute_force(), random_offset().  None of these do any I/O, so they're tested directly with no mocking.
+Description:   Source module test_cipher_core.py.
 Author:        Mai Tan Duc <ducmai.network@gmail.com>
 Created:       2026-10-10
 Version:       1.0.0
